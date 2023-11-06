@@ -11,11 +11,6 @@ public class Rectangle {
         this.breadth = breadth;
     }
 
-    public Rectangle() {
-        this.length = 0;
-        this.breadth = 0;
-    }
-
     public int area(){
         if(length < 0 || breadth < 0) {
             throw new IllegalArgumentException();
